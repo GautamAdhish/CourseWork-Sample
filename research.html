@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research — Component Comparison</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo"><a href="index.html">Sustain & Co.</a></h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Research: Components comparison</h2>
+    <p>This page contrasts selected web components used on our site against five reference websites investigated during research.</p>
+
+    <h3>Components analysed</h3>
+    <ul>
+      <li><strong>Navigation (responsive):</strong> Our nav uses a simple accessible list with clear focus states; reference sites often use complex hamburger patterns that hide options.</li>
+      <li><strong>Product cards:</strong> We use semantic <code>article</code> elements with price metadata visible; some references hide pricing or provide inconsistent discount display.</li>
+      <li><strong>Contact form:</strong> Our form (in Contact) is client-validated and provides inline feedback; several references rely solely on server-side messages.</li>
+      <li><strong>Accessibility features:</strong> Focus outlines, high-contrast text, and proper headings structure. Many commercial sites prioritize visuals over ARIA/supporting semantics.</li>
+      <li><strong>Research links & references:</strong> We documented 5 pages used for inspiration below.</li>
+    </ul>
+
+    <h3>References</h3>
+    <ol>
+      <li><a href="https://www.patagonia.com" target="_blank" rel="noopener">Patagonia</a> — strong eco messaging and product transparency.</li>
+      <li><a href="https://www.etsy.com" target="_blank" rel="noopener">Etsy</a> — marketplace product listings and community features.</li>
+      <li><a href="https://www.thereformation.com" target="_blank" rel="noopener">Reformation</a> — sustainability-focused product detail pages.</li>
+      <li><a href="https://www.beautycounter.com" target="_blank" rel="noopener">Beautycounter</a> — clear compliance/certification info; checkout UX patterns.</li>
+      <li><a href="https://www.fairphone.com" target="_blank" rel="noopener">Fairphone</a> — repairability & lifecycle details on product pages.</li>
+    </ol>
+
+    <h3>Conclusion</h3>
+    <p>Our site intentionally highlights transparent pricing, semantic structure, and client-side feedback. Future improvements: richer product metadata (schema.org), checkout flow, and server-side form handling for persistence.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Sustain & Co.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
